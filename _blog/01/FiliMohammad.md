@@ -1,5 +1,7 @@
 ---
-layout: blog
+title: "Blog 1: Answering Questions"
+author: "Mohammad Fili"
+layout: post
 topic: "01"
 short-topic: Asking Good Questions
 due-date: 2022-01-27
