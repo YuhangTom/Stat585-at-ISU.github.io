@@ -1,6 +1,6 @@
 ---
 author: "Abraham Adokwei"
-title: ""Dplyr functionality
+title: "Dplyr functionality"
 layout: post
 topic: "03"
 short-topic: Split-Apply-Combine Paradigm
