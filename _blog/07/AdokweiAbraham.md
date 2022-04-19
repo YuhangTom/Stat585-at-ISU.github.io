@@ -5,8 +5,6 @@ layout: post
 topic: "07"
 short-topic: All that legal stuff...
 due-date: 2022-03-10
-bibliography: reference.bib
-bibli-style: unsrt
 root: ../../
 ---
 
@@ -48,9 +46,10 @@ Write a blog post addressing the following questions:
     - Yes
     - Unless required by applicable law or agreed to in writing, the copyright holder, or any other party who modifies it cannot be held liable for any sort of damage. 
 3. **Assume that you are in the process of making a package for your own graduate work. Describe considerations that come into play in deciding on a license. In case you are not quite at that stage in your graduate studies yet, come up with a likely scenario. Describe it and discuss.**
-  - While working on my Master's Critical Component, I came across a project that will potentially lead to creating as R package. This package will essentially help individuals compute *BIC Values* when performing Principal Component Analysis for situations where $n\,<\,p$ by making reference to a paper by @bai2018consistency . Using *BIC* is one way to assess the number of components to retain. 
+  - While working on my Master's Critical Component, I came across a project that will potentially lead to creating as R package. This package will essentially help individuals compute *BIC Values* when performing Principal Component Analysis for situations where $n\,<\,p$ by making reference to a paper by Bai et al 2018. Using *BIC* is one way to assess the number of components to retain. 
   - Looking over the three fundamental questions, I believe my closest option would be the *MIT License*. This is because, I want others to freely use my package without reservation plus I wouldn't have to deal with legal issues.  
 
+Bai, Zhidong, Kwok Pui Choi, and Yasunori Fujikoshi. 2018. “Consistency of AIC and BIC in Estimating the Number of Significant Components in High-Dimensional Principal Component Analysis.” The Annals of Statistics 46 (3): 1050–76.
 
 <ul>
 {% for post in site.blog %}
