@@ -1,5 +1,5 @@
 ---
-author: "Firstname Lastname"
+author: "Parastoo Akbari"
 title: "Title of your post"
 layout: post
 topic: "07"
@@ -37,11 +37,3 @@ first question: no, only copyright holders have the right to do so. / second que
 3. **Assume that you are in the process of making a package for your own graduate work. Describe considerations that come into play in deciding on a license. In case you are not quite at that stage in your graduate studies yet, come up with a likely scenario. Describe it and discuss.** My graduate work does not contain data. The first thing that should be considered is that whether I want to let other easily change, copy and share my codes. If so, then I have to choose a permissive license such as MIT or Apache; otherwise, copyleft licenses would be better. In my work, I think that would be okay if others can easily use my codes, so I prefer permissive license. Another thing, that should be considered is that if I want to bundle someone else's codes into my own packages, I should be careful about license compatability. 
 
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}
