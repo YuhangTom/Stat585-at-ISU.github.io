@@ -51,11 +51,3 @@ Write a blog post addressing the following questions:
 
 Bai, Zhidong, Kwok Pui Choi, and Yasunori Fujikoshi. 2018. “Consistency of AIC and BIC in Estimating the Number of Significant Components in High-Dimensional Principal Component Analysis.” The Annals of Statistics 46 (3): 1050–76.
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}
