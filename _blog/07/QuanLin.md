@@ -44,11 +44,3 @@ Write a blog post addressing the following questions:
 
 <ul>If the package is created by myself, I would use GPL-3. First, I can share with others. Then, since the modified version of GPL-3 is required to be marked as changed, I can keep my rights. If the version has been modified by others, I'm not responsible for the modified one. If I basically use the functionality from other packages, I will follow their licenses.</ul>
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}
