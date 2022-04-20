@@ -35,12 +35,3 @@ Question 3: The copyright holder (or holders) are the people who own the underly
 3. **Assume that you are in the process of making a package for your own graduate work. Describe considerations that come into play in deciding on a license. In case you are not quite at that stage in your graduate studies yet, come up with a likely scenario. Describe it and discuss.**
 I prefer to use something like an LGPL-3 license since it makes it easier to modify the code without being worried about the license, and also it prevents the follower researcher who wants to extend my research to make patent or copyright claims on the original software.
 
-
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

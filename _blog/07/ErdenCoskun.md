@@ -62,11 +62,3 @@ CC-0: Licensor assumes no liability under CC-0. A licensee who incorporates our 
 Other people utilizing my program, modifying it, and then sharing the modified work would be OK with me, especially if it was for educational purposes. However, I would rather not be held responsible for any potential errors. Furthermore, I would like anyone who use my code to allow others to use theirs. As a result, gpl-3 appears to be a suitable option. 
 
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

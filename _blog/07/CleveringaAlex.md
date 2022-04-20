@@ -37,11 +37,3 @@ CC-0: modifying and sharing the data is okay, and so it profiting from the deriv
 The project that I am working on is composed of data collected from the Iowa Soybean Association. Upon completion of the project, the data and code will be made publicly available for others to use through an R package. Therefore, we would be okay with people making modifications to the code and data. As far as I know, there is not an issue with someone making a profit from creating a tool that gives fertilizer recommendations to farmers that was trained with our data. In our scenario, I would consider using an MIT license.
 
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

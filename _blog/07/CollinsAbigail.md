@@ -66,11 +66,3 @@ CC-0: The description of this software license states that license "waives copyr
 My graduate work entails the analysis of high school data from the state of Iowa (the dataset that I have is confidential). In my analysis, I am trying to predict first year college retention rates based on high school performance. The functions that I am creating may be useful to other educational research studies. However they would not be able to access my data. Therefore I think a GPL license would be appropriate, so other can use/modify/share any functions or code I write, but it must be applied to their own data and modified to fit the state of which they have data for. A GPL license would be good because they can make edits, but they must also use the same license so others, or myself, could use/check it. 
 
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

@@ -76,12 +76,3 @@ If I am in the process of making a package, I would like to allow my work to be 
 
 
 
-
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

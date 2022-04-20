@@ -73,11 +73,3 @@ I did finished an R package previously for my research. It used GPL-3 license. I
 The only difference between GPL and MIT (that matters to me) is that GPL requires distributors of code that contain the GPL license to make their source code available, which I think is more reasonable? 
 
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

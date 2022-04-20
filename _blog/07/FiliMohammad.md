@@ -102,12 +102,3 @@ MIT (it is under a Permissive license)
 Assuming that I am planning to create a Machine Learning Package for a specific project related to my research. One of the important things is the university policies. Because I am employed as an RA, and therefore, the license should comply with the policies of university. The other thing is if the project contains data and if that's the case, we need to know if data can be shared (under which terms?). Other considerations are: what is the scope? (Is that package going to be used by public, or it is specific to a very limited group of people?). And at last, personal preferences: Do I want to share the source code, or not? Do I want to allow aother to make profit of it, or not?
 
 
-
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

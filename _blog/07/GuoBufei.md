@@ -63,11 +63,3 @@ in the derivatives.
 One consideration is that if my graduate work depends on others work and to what extent should my work depends on others. If the R package I use is under GPL-3,
 then I should use the same license or similar license. Another consideration is if I want to incoporate data in my packages.
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

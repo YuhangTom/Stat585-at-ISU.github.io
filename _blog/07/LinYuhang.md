@@ -71,12 +71,3 @@ Write a blog post addressing the following questions:
     If so,
     I need to think about license compatibility as well as how to include those codes in the packages.
 
-
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

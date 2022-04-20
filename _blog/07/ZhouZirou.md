@@ -46,11 +46,3 @@ CC-0: YES, YES, and the author will not be responsible for abuse the software.
 
 Since we are planning to use the most basic functions in R to build the package and we will still keep it open to anyone wants to use or modify it, It's rational to keep the same liscense with the R, which is GPL-3.
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

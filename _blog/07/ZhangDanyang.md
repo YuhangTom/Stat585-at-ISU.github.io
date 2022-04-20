@@ -38,11 +38,3 @@ GPL. MIT + file LICENSE.
 3. **Assume that you are in the process of making a package for your own graduate work. Describe considerations that come into play in deciding on a license. In case you are not quite at that stage in your graduate studies yet, come up with a likely scenario. Describe it and discuss.**
 How to license your package depends on how you want people to treat it. If you just want people to keep the copyright and license notice, you can use the MIT license. Contributors provide an express grant of patent rights using the Apache license. If you want all derivatives and bundles of your code are also open source, choose the GPLv3 license. CC0 license puts minimal restrictions if your package primarily contains data, not code. License compatibility should also be taken into considerations when you are bundling other's code into your package.
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

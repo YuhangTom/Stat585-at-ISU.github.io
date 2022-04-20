@@ -51,11 +51,3 @@ I would choose between MIT and GPL. Use GPL if I’ve incorporated others’ GPL
 
 
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}

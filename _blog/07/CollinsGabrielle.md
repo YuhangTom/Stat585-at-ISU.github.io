@@ -39,11 +39,3 @@ CC-0: 1. Yes 2. Yes 3. This license provides no warranty over it's code so the u
 
 My creative component deals with modeling handwritng data and I use the data that is made publically available on the CSAFE website. When making a package for this model, I would need to consider the limitations on the data that I am using, and how publically available I want to make this model when deciding on a license. The fact that project relies on other code written by members of CSAFE, would also need to be considered when choosing a license, as I would need to awknowledge this contribution.  
 
-<ul>
-{% for post in site.blog %}
-  {% if page.topic == post.topic %}
-  <li><a href="{{ post.url }}">{{ post.title }} by {{ post.author }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
-{% endif %}
