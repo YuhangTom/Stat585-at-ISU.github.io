@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Answering good(???) questions"
+title: "Asking and answering good questions"
 author: "Jinji Pang"
 topic: "01"
 short-topic: Asking Good Questions
